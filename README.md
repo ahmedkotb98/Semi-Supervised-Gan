@@ -4,4 +4,4 @@ This is an implementation of Semi-supervised generative adversarial network for 
 
 #Running
  
-You can use "python ImprovedGAN.py --cuda" to run it on GPU
+You can use python ImprovedGAN.py --cuda to run it on GPU
