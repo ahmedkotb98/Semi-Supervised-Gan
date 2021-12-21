@@ -18,11 +18,12 @@
 
 - Discriminator : https://drive.google.com/file/d/1-ZJ5RPqHlCtVKDlH5z4urGRne8PDpibE/view?usp=sharing
 
-## Deployment
+## How to run the app
 
-- to run the app  
+After installing necessary packages, use the following command to run the app from project root directory-
+  
 ```
 uvicorn app.main:app
 ```
--
+
 
