@@ -27,6 +27,6 @@ uvicorn app.main:app
 ```
 And visit http://127.0.0.1:8000/docs from your browser. You will be able to see swagger. From there you can upload an image through predict endpoint and then you will get a json response.
 
-<img src="https://github.com/ahmedkotb98/Semi-Supervised-Gan/blob/main/images/api_docs.png" width="400" height="400" />
+<img src="https://github.com/ahmedkotb98/Semi-Supervised-Gan/blob/main/images/api_docs.png" width="1000" height="1000" />
 
 
