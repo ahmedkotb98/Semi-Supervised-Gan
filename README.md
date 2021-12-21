@@ -47,14 +47,14 @@ docker-compose up --build
     Nash equilibrium happens when one player does not change his/her actions regardless of what the other is doing.
     - 2 -  Vanishing gradient
 
-          This is a very often problem we see in deep neural networks in general, the same problem gets stronger here because the gradient at Discriminator not only goes back to Discriminator network but also it goes back to Generator network as feedback.
+        This is a very often problem we see in deep neural networks in general, the same problem gets stronger here because the gradient at Discriminator not only goes back to Discriminator network but also it goes back to Generator network as feedback.
 
-          Because of it there is no stability in training GAN’s.
+        Because of it there is no stability in training GAN’s.
 
-          →if the discriminator D gets stronger quickly (say D(x)= 1 , D(G(z)) =0 ), at generator G → log(1 — D(G(z))) = log(1–0) = 0 
+        →if the discriminator D gets stronger quickly (say D(x)= 1 , D(G(z)) =0 ), at generator G → log(1 — D(G(z))) = log(1–0) = 0 
 
-          then the gradient of the loss function is 0 , then the learning is stopped.
+        then the gradient of the loss function is 0 , then the learning is stopped.
 
-          → if the discriminator D gets too weekly , then the generator G does not have good feed back so the loss represent nothing much.
+        → if the discriminator D gets too weekly , then the generator G does not have good feed back so the loss represent nothing much.
 
-          Moral: Don’t train D too good or too poor.
+        Moral: Don’t train D too good or too poor.
