@@ -58,3 +58,13 @@ docker-compose up --build
         → if the discriminator D gets too weekly , then the generator G does not have good feed back so the loss represent nothing much.
 
         Moral: Don’t train D too good or too poor.
+     
+    - 3 - No proper evaluation metric
+
+        As we have seen above in the code, we don’t really know when to stop the training as there is no proper evaluation metric in training GAN’s.
+
+        Visual inspection is required, a lot of people do that it when training GAN’s.
+
+        The losses don’t really tell much in GAN’s unlike other deep learning algorithms.
+
+        Due to this, often we end up not having a good GAN model. 
