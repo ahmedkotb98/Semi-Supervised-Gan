@@ -17,3 +17,12 @@
 - Generator : https://drive.google.com/file/d/1-aGDeOglIPQtw-i4-Scwjpinf2YwJqC7/view?usp=sharing
 
 - Discriminator : https://drive.google.com/file/d/1-ZJ5RPqHlCtVKDlH5z4urGRne8PDpibE/view?usp=sharing
+
+## Deployment
+
+- to run the app  
+```
+uvicorn app.main:app
+```
+-
+
