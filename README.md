@@ -41,7 +41,7 @@ docker-compose up --build
 
 - If you want to use my models for inference please make sure that images like fashion-mnist images
 - why Improving GAN’s training is a very hot research topic ? 
-1 - Hard to find “Nash equilibrium”
+- 1 - Hard to find “Nash equilibrium”
 This is the optimal point in the game for both generator G and discriminator D
 it’s really hard to find because this is a non coperative game where two players push each other as hard as possible.
 Nash equilibrium happens when one player does not change his/her actions regardless of what the other is doing.
