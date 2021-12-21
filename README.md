@@ -1,8 +1,8 @@
 # Semi-supervised GAN
 
--This is an implementation of Semi-supervised generative adversarial network with fashion-mnist dataset.
+- This is an implementation of Semi-supervised generative adversarial network with fashion-mnist dataset.
 - ## Architecture
-  <img src="https://github.com/ahmedkotb98/Semi-Supervised-Gan/blob/main/images/architecture.png" width="280" height="280" />
+  <img src="https://github.com/ahmedkotb98/Semi-Supervised-Gan/blob/main/images/architecture.png" width="400" height="400" />
 
 ## Training
  
