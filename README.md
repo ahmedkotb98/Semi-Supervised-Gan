@@ -6,7 +6,7 @@
 
 ## Training
 
--You can use the below command to run the training on GPU
+- You can use the below command to run the training on GPU
 ```
 python ImprovedGAN.py --cuda
 ```
