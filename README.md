@@ -5,8 +5,11 @@
   <img src="https://github.com/ahmedkotb98/Semi-Supervised-Gan/blob/main/images/architecture.png" width="600" height="600" />
 
 ## Training
- 
-- You can use `python ImprovedGAN.py --cuda` to run it on GPU
+
+-You can use the below command to run the training on GPU
+```
+python ImprovedGAN.py --cuda
+```
 
 ## Results
 
@@ -67,4 +70,8 @@ docker-compose up --build
 
         The losses don’t really tell much in GAN’s unlike other deep learning algorithms.
 
-        Due to this, often we end up not having a good GAN model. 
+        Due to this, often we end up not having a good GAN model.
+
+## Reference
+
+
