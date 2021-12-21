@@ -42,7 +42,7 @@ docker-compose up --build
 
 ## Some Notes
 
-- If you want to use my models for inference please make sure that images like fashion-mnist images
+- If you want to use my models for inference please make sure that images like fashion-mnist images this link is very useful https://stackoverflow.com/questions/66720811/how-to-build-a-cnn-model-for-mnist-fashion-and-test-it-with-a-another-set-of-ima
 - why Improving GAN’s training is a very hot research topic ? 
     - 1 - Hard to find “Nash equilibrium”
     This is the optimal point in the game for both generator G and discriminator D
