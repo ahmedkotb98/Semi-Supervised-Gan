@@ -73,5 +73,7 @@ docker-compose up --build
         Due to this, often we end up not having a good GAN model.
 
 ## Reference
+- https://github.com/Sleepychord/ImprovedGAN-pytorch
+- https://www.linkedin.com/pulse/ch14-general-adversarial-networks-gans-math-madhu-sanjeevi-mady-/
 
 
